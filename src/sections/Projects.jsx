@@ -24,6 +24,14 @@ const projects = [
     image: "/projects/kasir-minimarket.png",
     tags: ["ElectronJS", "TypeScript", "Java", "JavaScript"],
   },
+  {
+    title: "PortoInstant - Portofolio Professional dalam Menit",
+    description:
+      "PortoInstant - Platform pembuat portofolio profesional instan yang memungkinkan pengguna membuat CV dan portofolio digital yang menarik dalam hitungan menit tanpa perlu coding.",
+    image: "/projects/porto-instant.png",
+    tags: ["ReactJS", "JavaScript", "TailwindCSS"],
+    link: "https://porto-instant-portofolio-profession.vercel.app/",
+  },
 ];
 
 export const Projects = () => {

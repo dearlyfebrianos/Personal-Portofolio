@@ -32,6 +32,13 @@ const projects = [
     tags: ["ReactJS", "JavaScript", "TailwindCSS"],
     link: "https://porto-instant-portofolio-profession.vercel.app/",
   },
+  {
+    title: "CodeLabX - Pembelajaran Coding & Online Coding",
+    description: "CodeLabX - Platform website yang dapat membantu pengguna untuk mempelajari coding serta dapat membantu pengguna langsung tes bagaimana codingnya bekerja sebelum sang pengguna membuat websitenya langsung.",
+    image: "/projects/codelabx.png",
+    tags: ["NextJS", "Firebase", "Typescript", "TailwindCSS"],
+    link: 'https://code-lab-x.vercel.app/'
+  }
 ];
 
 export const Projects = () => {
@@ -84,6 +91,7 @@ export const Projects = () => {
                 <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <a
                     href={project.link}
+                    target="_blank"
                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
                   >
                     <ArrowUpRight className="w-5 h-5" />
